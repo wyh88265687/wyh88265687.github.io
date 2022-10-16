@@ -1,2 +1,2 @@
-# -wyh88265687.github.io
+# wyh88265687.github.io
 my_server
