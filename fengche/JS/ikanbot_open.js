@@ -1,4 +1,4 @@
-import { Crypto, load, _ } from './cat.js';
+import { Crypto, load, _ } from './lib/cat.js';
 
 let key = 'ikanbot';
 let url = 'https://www.ikanbot.com';
