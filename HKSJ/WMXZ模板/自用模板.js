@@ -508,7 +508,7 @@ d.push({
         })
     }),
     col_type: "input",
-    desc: "网站分类地址，生成时用fyclass和fypage替换",
+    desc: "生成时用fyclass和fypage替换",
     pic_url: "",
     extra:{
         defaultValue:getMyVar('url',''),
