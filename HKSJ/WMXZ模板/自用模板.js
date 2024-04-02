@@ -221,7 +221,7 @@ d.push({
     }),
     col_type:'scroll_button'
 });
-let desc="测试如果能正常进首页即成功，支持常见视频类网页书签地址。测试环境已升级完整的运行沙箱，点击二级进不去的人记得升级模板，出来了一级就说明可用";
+let desc="测试环境已升级完整的运行沙箱，点击二级进不去的人记得升级模板，出来了一级就说明可用。生成时分类地址用fyclass和fypage替换";
 d.push({
     title: '无名小卒模板说明-点此管理本地模板',
     url: $('hiker://empty').rule(()=>{
@@ -508,7 +508,7 @@ d.push({
         })
     }),
     col_type: "input",
-    desc: "生成时用fyclass和fypage替换",
+    desc: "输入分类地址或首页地址",
     pic_url: "",
     extra:{
         defaultValue:getMyVar('url',''),
