@@ -223,7 +223,7 @@ d.push({
 });
 let desc="测试如果能正常进首页即成功，支持常见视频类网页书签地址。测试环境已升级完整的运行沙箱，点击二级进不去的人记得升级模板，出来了一级就说明可用";
 d.push({
-    title: '道长dr模板说明-点此管理本地模板',
+    title: '无名小卒模板说明-点此管理本地模板',
     url: $('hiker://empty').rule(()=>{
         setPageTitle('DR自动匹配模板管理');
         let root = 'hiker://files/rules/dzHouse/json/'; //模板根目录
@@ -508,7 +508,7 @@ d.push({
         })
     }),
     col_type: "input",
-    desc: "输入待添加的视频网站地址",
+    desc: "网站分类地址，生成时用fyclass和fypage替换",
     pic_url: "",
     extra:{
         defaultValue:getMyVar('url',''),
