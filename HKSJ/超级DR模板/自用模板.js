@@ -223,7 +223,7 @@ d.push({
 });
 let desc="测试环境已升级完整的运行沙箱，点击二级进不去的人记得升级模板，出来了一级就说明可用。生成时分类地址用fyclass和fypage替换";
 d.push({
-    title: '无名小卒模板说明-点此管理本地模板',
+    title: '超级DR模板说明-点此管理本地模板',
     url: $('hiker://empty').rule(()=>{
         setPageTitle('DR自动匹配模板管理');
         let root = 'hiker://files/rules/dzHouse/json/'; //模板根目录
