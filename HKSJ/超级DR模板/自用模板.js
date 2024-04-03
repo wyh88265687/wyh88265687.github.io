@@ -221,7 +221,7 @@ d.push({
     }),
     col_type:'scroll_button'
 });
-let desc="测试环境已升级完整的运行沙箱，点击二级进不去的人记得升级模板，出来了一级就说明可用。生成时分类地址用fyclass和fypage替换";
+let desc="首次使用记得更新模板，一般网站都可以秒出一级和二级，没有模板的话可以自己创建一级或二级的模板，模板越多越方便，推荐使用APP模式，不想建模板的可以用web模式。生成时分类地址用fyclass和fypage替换，生成后记得加入分类名称和替换词，否则出错。特殊范例的写法：http://**/fyclass/indexfypage.html[firstPage=http://**/fyclass/index.html]。
 d.push({
     title: '超级DR模板说明-点此管理本地模板',
     url: $('hiker://empty').rule(()=>{
