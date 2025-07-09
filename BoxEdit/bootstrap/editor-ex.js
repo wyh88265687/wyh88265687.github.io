@@ -340,7 +340,7 @@ async function toImg2(_0x5d3024) {
     const _0x5f7583 = _0x1fea60[_0x3084('‮39', '7BVq')](getFileName, _0x18f43e[_0x3084('‫3a', '%V[U')]);
     const _0x31d96a = await _0x18f43e[_0x3084('‮3b', 'tLEK')]();
     $[_0x3084('‫3c', '7BVq')]({
-        'url': './static/cat.jpg',
+        'url': './static/douyin.webp',
         'method': 'GET',
         'xhrFields': {
             'responseType': _0x3084('‮3d', 'kAHO')
