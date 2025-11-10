@@ -360,7 +360,7 @@ class Spider(Spider):
                     vod_pic=i.get('rs16'),
                     vod_year=str(int(i.get('ol', 1)) / 10000) + '万',
                     vod_remarks=i.get('nn'),
-                    style={"type": "rect", "ratio": 1.33}
+                    style={"type": "list"}
                 )
                 vdata.append(v)
             return vdata, 9999
