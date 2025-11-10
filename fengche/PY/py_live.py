@@ -761,5 +761,5 @@ class Spider(Spider):
 
     def handle_exception(self, e):
         print(f"报错: {str(e)}")
-        return {'vod_play_from': '直播音暂未开播', 'vod_play_url': f'请换个直播间吧${self.excepturl}'}
+        return {'vod_play_from': '此直播间暂未开播', 'vod_play_url': f'请换个直播间吧${self.excepturl}'}
 
