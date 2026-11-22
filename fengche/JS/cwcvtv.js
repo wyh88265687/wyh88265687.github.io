@@ -1,25 +1,7 @@
-/**
- * 央视频 1080P
- * 作者：deepseek
- * 版本：1.0
- * 最后更新：2026-1-2 02:46:31
- * 发布页 https://m.yangshipin.cn/
- * @config
- * debug: true
- * blockList: *.[ico|png|jpeg|jpg|gif|webp]*
- */
-
-
-/**
- * 初始化配置
- */
 async function init(cfg) {
     return {};
 }
 
-/**
- * 首页分类
- */
 async function homeContent(filter) {
     return {
         class: [
@@ -29,18 +11,12 @@ async function homeContent(filter) {
     };
 }
 
-/**
- * 首页推荐视频
- */
 async function homeVideoContent() {
     return {
         list: []
     };
 }
 
-/**
- * 分类内容
- */
 async function categoryContent(tid, pg, filter, extend) {
     const res = await Java.req('https://h5access.yangshipin.cn/web/tv_web_share?raw=1&pid=600002485');
     const jsonData = JSON.parse(res.body);
@@ -79,9 +55,6 @@ async function categoryContent(tid, pg, filter, extend) {
     };
 }
 
-/**
- * 详情页
- */
 async function detailContent(ids) {
     return {
         list: []
@@ -102,18 +75,12 @@ async function action(pid) {
 }
 
 
-/**
- * 搜索
- */
 async function searchContent(key, quick, pg) {
     return {
         list: []
     };
 }
 
-/**
- * 播放器
- */
 async function playerContent(flag, id, vipFlags) {
     return;
 }
